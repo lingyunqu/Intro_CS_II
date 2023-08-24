@@ -19,17 +19,18 @@ integer: (1) decimal (starting with 0b, base-2 number) (2) binary  (3) octal (st
 integer suffix: U for unsigned literals, L for long literals, F for floating literals
 
 ## Initialization and assignment
-Initialization:
+### Initialization:
 ```cpp
 int a=5;
 ```
 determine the initial value that the variable is to start with
 
-When no initializer is specified: 
-```cpp
-int a;
-a=5;
-```
+Avoid to specify no initializer. Always initialize your variable.
 
+### Assignment:
+```cpp
+int a=5; //initialization
+a=8; // assignment
+```
 
 
