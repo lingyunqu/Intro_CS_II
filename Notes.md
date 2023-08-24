@@ -32,5 +32,5 @@ Avoid to specify no initializer. Always initialize your variable.
 int a=5; //initialization
 a=8; // assignment
 ```
-
+go back to the variable and stores something else
 
