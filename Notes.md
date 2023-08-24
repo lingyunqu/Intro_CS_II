@@ -16,4 +16,20 @@ char: 26 alphabetic characters, 0-9
 
 integer: (1) decimal (starting with 0b, base-2 number) (2) binary  (3) octal (starting with 0, base-8 number) (4) hexadecimal (starting with 0x, base-16 number)
 
-integer suffix: U for unsigned literals, L for long literals
+integer suffix: U for unsigned literals, L for long literals, F for floating literals
+
+## Initialization and assignment
+Initialization:
+```cpp
+int a=5;
+```
+determine the initial value that the variable is to start with
+
+When no initializer is specified: 
+```cpp
+int a;
+a=5;
+```
+
+
+
